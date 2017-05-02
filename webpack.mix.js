@@ -11,7 +11,22 @@ const { mix } = require('laravel-mix');
  |
  */
 
-
+var SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
+mix.webpackConfig({
+  plugins: [
+    new SWPrecacheWebpackPlugin(
+      {
+        cacheId: 'myapp',
+        filename: 'js/sw.js',
+        minify: false,
+        runtimeCaching: [{
+          handler: 'cacheFirst',
+          urlPattern: /fonts\/.*$/,
+        }],
+      }
+    ),
+  ]
+});
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .js('resources/assets/js/app-landing.js', 'public/js/app-landing.js')
