@@ -16,6 +16,9 @@ require('admin-lte')
 window.toastr = require('toastr')
 require('icheck')
 
+//Sw-precache service worker registration.
+// require('./service-worker-registration')
+
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces
  * using reactive data binding and reusable components. Vue's API is clean

@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["css/adminlte-app.css","16052279fd575af95f1f93712134664a"],["css/app.css","1d868db8e31f3f737203f8b2181096f3"],["css/bootstrap.css","f6310f405bf4f86e0d06fc6080c96983"],["css/toastr.css","4a1ce0f1758a66177258ba164e084450"],["js/app-landing.js","6eb043a8e8495a268e6250bb12461886"],["js/app.js","22cb96f2e00be2639a3175d30dccb52d"],["mix-manifest.json","6d72eeb6b2f2d6d878309f5adf3e5f50"]];
+var precacheConfig = [["css/adminlte-app.css","16052279fd575af95f1f93712134664a"],["css/app.css","1d868db8e31f3f737203f8b2181096f3"],["css/bootstrap.css","f6310f405bf4f86e0d06fc6080c96983"],["css/toastr.css","4a1ce0f1758a66177258ba164e084450"],["js/app-landing.js","6eb043a8e8495a268e6250bb12461886"],["js/app.js","48a1d8cfdd45c02269a899dce7c518c3"],["mix-manifest.json","6d72eeb6b2f2d6d878309f5adf3e5f50"]];
 var cacheName = 'sw-precache-v3-myapp-' + (self.registration ? self.registration.scope : '');
 
 

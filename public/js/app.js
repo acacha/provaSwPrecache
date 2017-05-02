@@ -25184,6 +25184,9 @@ __webpack_require__(25);
 window.toastr = __webpack_require__(57);
 __webpack_require__(54);
 
+//Sw-precache service worker registration.
+// require('./service-worker-registration')
+
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces
  * using reactive data binding and reusable components. Vue's API is clean
